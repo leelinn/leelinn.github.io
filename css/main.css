@@ -1,0 +1,78 @@
+body {
+  font-family: "Manrope";
+  margin: 0;
+}
+
+.content {
+  margin: auto;
+  width: 50%;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  font-family: "Open Sans";
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.avatar {
+  position: absolute;
+  right: -180px;
+  top: -10px;
+}
+
+.image-box {
+  display: flex;
+}
+
+@media (max-width: 800px) {
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  padding-top: 8px;
+}
+
+q {
+  font-style: italic;
+}
+
+.quoteBlock {
+  background: linear-gradient(90deg, rgba(199,92,210,1) 50%, rgba(236,61,61,1) 90%);
+  border-radius: 16px;
+  position: relative;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.avatarLeft {
+  position: absolute;
+  left: -180px;
+  width: 150px;
+}
+
+.avatarRight {
+  position: absolute;
+  right: -180px;
+  width: 150px;
+}
+
+.materials {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px;
+}
