@@ -2,11 +2,19 @@ body {
   font-family: "Cormorant Garamond", serif;
   margin: 0;
   font-size: 19px;
+  background-image: url(/public/background/994855e7.png);
 }
 
 .content {
   margin: auto;
-  width: 30%;
+  width: 60%;
+  background: white;
+}
+
+section,
+.morale {
+  width: 50%;
+  margin: auto;
 }
 
 h1,
@@ -18,17 +26,18 @@ h3 {
 
 h1 {
   font-size: 40px;
+  padding-top: 80px;
 }
 
 h2 {
-  margin-top: 32px;
-  margin-bottom: 16px;
+  margin-top: 64px;
+  margin-bottom: 32px;
 }
 
 .avatar {
   position: absolute;
   right: -180px;
-  top: -10px;
+  top: -4px;
 }
 
 .image-box {
@@ -54,12 +63,17 @@ q {
   font-style: italic;
 }
 
+p:last-child {
+  margin-bottom: 0;
+}
+
 .quoteBlock {
   background: #b69b7f;
   border-radius: 16px;
   position: relative;
   margin-top: 32px;
   margin-bottom: 32px;
+  box-shadow: 0px 0px 8px 8px rgba(15, 137, 231, 0.1);
 }
 
 .avatarLeft {
@@ -78,4 +92,42 @@ q {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 32px;
+  padding-bottom: 32px;
+}
+
+blockquote {
+  background: linear-gradient(135deg, #f6eedb 50%, #f4fef9 50%);
+  padding-top: 30px !important;
+  padding-bottom: 4px !important;
+  text-align: center;
+  position: relative;
+  color: #49152c;
+  padding: 30px 50px;
+  font-family: "Lato", sans-serif;
+}
+blockquote p {
+  font-size: 19px;
+  margin-top: 30px;
+  text-align: left;
+}
+blockquote p:before {
+  content: "\201C";
+  font-size: 100px;
+  color: #ea6844;
+  font-family: serif;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+blockquote cite {
+  font-style: normal;
+}
+
+footer {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
