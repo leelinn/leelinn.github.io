@@ -97,8 +97,8 @@ p:last-child {
 
 blockquote {
   background: linear-gradient(135deg, #f6eedb 50%, #f4fef9 50%);
-  padding-top: 30px !important;
-  padding-bottom: 4px !important;
+  padding-top: 25px !important;
+  padding-bottom: 17px !important;
   text-align: center;
   position: relative;
   color: #49152c;
