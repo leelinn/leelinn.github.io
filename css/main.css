@@ -1,6 +1,7 @@
 body {
-  font-family: "Manrope";
+  font-family: "Cormorant Garamond", serif;
   margin: 0;
+  font-size: 19px;
 }
 
 .content {
@@ -8,7 +9,9 @@ body {
   width: 30%;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   text-align: center;
   font-family: "Open Sans";
 }
@@ -52,7 +55,7 @@ q {
 }
 
 .quoteBlock {
-  background: linear-gradient(90deg, rgba(199,92,210,1) 50%, rgba(236,61,61,1) 90%);
+  background: #b69b7f;
   border-radius: 16px;
   position: relative;
   margin-top: 32px;
