@@ -78,13 +78,13 @@ p:last-child {
 
 .avatarLeft {
   position: absolute;
-  left: -240px;
+  left: -210px;
   width: 150px;
 }
 
 .avatarRight {
   position: absolute;
-  right: -240px;
+  right: -210px;
   width: 150px;
 }
 
