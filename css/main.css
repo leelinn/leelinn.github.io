@@ -36,7 +36,7 @@ h2 {
 
 .avatar {
   position: absolute;
-  right: -180px;
+  right: -240px;
   top: -4px;
 }
 
@@ -78,13 +78,13 @@ p:last-child {
 
 .avatarLeft {
   position: absolute;
-  left: -180px;
+  left: -240px;
   width: 150px;
 }
 
 .avatarRight {
   position: absolute;
-  right: -180px;
+  right: -240px;
   width: 150px;
 }
 
