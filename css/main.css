@@ -38,7 +38,8 @@ h2 {
 .avatar {
   position: absolute;
   right: -210px;
-  top: -4px;
+  top: 0px;
+  font-size: 14px;
 }
 
 .image-box {
@@ -81,12 +82,16 @@ p:last-child {
   position: absolute;
   left: -210px;
   width: 150px;
+  font-size: 14px;
+  top: 0px;
 }
 
 .avatarRight {
   position: absolute;
   right: -210px;
   width: 150px;
+  font-size: 14px;
+  top: 0px;
 }
 
 .materials {
