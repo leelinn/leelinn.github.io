@@ -1,5 +1,5 @@
 body {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "PT Sans", serif;
   margin: 0;
   font-size: 19px;
   background-image: url(/public/background/994855e7.png);
@@ -22,7 +22,7 @@ h1,
 h2,
 h3 {
   text-align: left;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 
 h1 {
@@ -104,7 +104,7 @@ blockquote {
   position: relative;
   color: #49152c;
   padding: 30px 50px;
-  font-family: "Lato", sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 blockquote p {
   font-size: 19px;
